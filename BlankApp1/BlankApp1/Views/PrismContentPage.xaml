@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="BlankApp1.Views.PrismContentPage">
+    <StackLayout>
+        <BoxView BackgroundColor="Aqua" VerticalOptions="Center"/>
+        <BoxView BackgroundColor="Orange" VerticalOptions="Center"/>
+        <BoxView BackgroundColor="Green" VerticalOptions="CenterAndExpand"/>
+        <BoxView BackgroundColor="Red" VerticalOptions="CenterAndExpand"/>
+    </StackLayout>
+  
+</ContentPage>

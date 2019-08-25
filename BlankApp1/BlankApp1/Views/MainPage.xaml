@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BlankApp1.Views.MainPage"
+             Title="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Text="Button1" Grid.Row="0" Grid.Column="0" Command="{Binding Button1_clicked}"/>
+        <Button Text="Button2" Grid.Row="0" Grid.Column="1" Command="{Binding Button2_clicked}"/>
+        <Button Text="Button3" Grid.Row="1" Grid.Column="0" Command="{Binding Button3_clicked}"/>
+        <Button Text="Button4" Grid.Row="1" Grid.Column="1" Command="{Binding Button4_clicked}"/>
+        <Button Text="Button5" Grid.Row="2" Grid.Column="0" Command="{Binding Button5_clicked}"/>
+        <Button Text="Button6" Grid.Row="2" Grid.Column="1" Command="{Binding Button6_clicked}"/>
+    </Grid>
+
+</ContentPage>

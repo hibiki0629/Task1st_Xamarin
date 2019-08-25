@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="BlankApp1.Views.PrismContentPage1">
+    <ScrollView>
+    <StackLayout>
+        <Slider Maximum="100" Minimum="0"/>
+        <Switch IsToggled="True"/>
+        <DatePicker/>
+        <TimePicker/>
+        <ProgressBar Progress="0.5"/>
+        <ActivityIndicator IsRunning="True"/>
+        <Image Source="https://www.beiz.jp/images_M/sky/sky_00001.jpg"/>
+        <Image Source="{Binding Image}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
